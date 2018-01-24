@@ -18,13 +18,13 @@
             <asp:TextBox ID="betTextBox" runat="server"></asp:TextBox>
         </p>
         <p>
-            <asp:Button ID="leverButton" runat="server" Text="Pull the Lever" />
+            <asp:Button ID="leverButton" runat="server" OnClick="leverButton_Click" Text="Pull the Lever" />
         </p>
         <p>
-            <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+            <asp:Label ID="resultLabel" runat="server"></asp:Label>
         </p>
         <p>
-            <asp:Label ID="Label2" runat="server" Text="Label"></asp:Label>
+            <asp:Label ID="moneyLabel" runat="server"></asp:Label>
         </p>
         <div>
             1 Cherry - x2 your bet<br />

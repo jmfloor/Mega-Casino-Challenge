@@ -13,5 +13,17 @@ namespace MegaCasinoChallenge
         {
 
         }
+
+        protected void leverButton_Click(object sender, EventArgs e)
+        {
+            //actions when leverButton is pulled
+
+            //select random pictures for each reel
+
+            //determine if it is a winning combination
+
+            // update the money
+
+        }
     }
 }
