@@ -9,9 +9,9 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <asp:Image ID="reelOneImage" runat="server" Height="100px" Width="100px" />
-            <asp:Image ID="reelTwoImage" runat="server" Height="100px" Width="100px" />
-            <asp:Image ID="reelThreeImage" runat="server" Height="100px" Width="100px" />
+            <asp:Image ID="reelOneImage" runat="server" Height="100px" Width="100px" ImageUrl="Images/Bar.png" />
+            <asp:Image ID="reelTwoImage" runat="server" Height="100px" Width="100px" ImageUrl="Images/Bar.png" />
+            <asp:Image ID="reelThreeImage" runat="server" Height="100px" Width="100px" ImageUrl="Images/Bar.png" />
         </div>
         <p>
             Your Bet:
